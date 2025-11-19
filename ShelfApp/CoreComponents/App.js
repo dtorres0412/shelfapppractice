@@ -85,7 +85,6 @@ const styles = StyleSheet.create({
     width: 200,
     backgroundColor: '#fff',
     paddingTop: 60,
-    paddingHorizontal: 20,
     borderRadius: 20,
   },
 
@@ -120,6 +119,7 @@ const styles = StyleSheet.create({
   },
 
   sidebarTextOption: {
+    paddingHorizontal: 20,
     color: 'gray',
     fontSize: 18,
     marginVertical: 12,
@@ -139,8 +139,10 @@ const styles = StyleSheet.create({
   },
 
   horizontalLine1: {
+    width: '100%',
     borderBottomColor: 'green',
     borderBottomWidth: StyleSheet.hairlineWidth,
+    marginVertical: 10,
   },
 
   horizontalLine2: {
@@ -149,7 +151,7 @@ const styles = StyleSheet.create({
   },
 
   horizontalLine3: {
-    marginTop: 500,
+    marginTop: 450,
     borderBottomColor: 'grey',
     borderBottomWidth: StyleSheet.hairlineWidth,
   },
